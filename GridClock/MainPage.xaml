@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GridClock.MainPage"
+             Shell.NavBarIsVisible="false"
+             BackgroundColor="{Binding BackgroundColor}">
+    
+
+    <VerticalStackLayout Margin="5"
+                         Spacing="2"
+                         VerticalOptions="Center">
+
+        <VerticalStackLayout.Resources>
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+            </Style>
+        </VerticalStackLayout.Resources>
+
+        <!-- Header -->
+        <Label x:Name="header" 
+               Text="{Binding HeaderText}"/>
+
+        <!-- Body -->
+        <HorizontalStackLayout Margin="20"
+                               Spacing="15"
+                               HorizontalOptions="Center">
+
+            <Grid x:Name="HGrid"/>
+            <!-- Hours -->
+            <Grid x:Name="MGrid"/>
+            <!-- Minutes -->
+            <Grid x:Name="SGrid"/>
+            <!-- Seconds -->
+
+        </HorizontalStackLayout>
+
+        <!-- Footer -->
+        <Label x:Name="footer" 
+               Text="{Binding FooterText}"/>
+
+    </VerticalStackLayout>
+
+    
+</ContentPage>
