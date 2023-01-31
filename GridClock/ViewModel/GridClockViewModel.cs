@@ -1,7 +1,5 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using GridClock.Model;
-using Microsoft.Maui.Controls.Shapes;
-using System.Diagnostics;
 
 namespace GridClock.ViewModel
 {

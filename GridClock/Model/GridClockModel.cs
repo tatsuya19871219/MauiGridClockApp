@@ -86,7 +86,7 @@
                 IsMoreThanOneSecondPassed = false;
             }
 
-           
+
             if (IsJustOneSecondPassed && IsJustSwitchToDayTime()) _daytimeAction();
             if (IsJustOneSecondPassed && IsJustSwitchToNightTime()) _nighttimeAction();
 
