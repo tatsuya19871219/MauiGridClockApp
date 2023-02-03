@@ -2,6 +2,16 @@
 
 A tiny application that uses Grid, a MAUI layout element, to represent time.
 
+## Files edited
+- Model
+    - [GridClockModel.cs](./GridClock/Model/GridClockModel.cs)
+- ViewModel
+    - [ClockGrid.cs](./GridClock/ViewModel/ClockGrid.cs)
+    - [GridClockViewModel.cs](./GridClock/ViewModel/GridClockViewModel.cs)
+- [MainPage.xaml](./GridClock/MainPage.xaml)
+- [MainPage.xaml.cs](./GridClock/MainPage.xaml.cs)
+- [MauiProgram.cs](./GridClock/MauiProgram.cs)
+
 ## What I learnt from the project
 
 - How to create a new MAUI project in Visual Studio
